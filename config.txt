@@ -1,0 +1,20 @@
+# CONFIGURATION FILE
+
+$LOCAL$
+0 Client_Red_0 127.0.0.1 4000 127.0.0.1 LogBackups/Client_Red_1_LOG.txt
+1 Client_Blue_1 127.0.0.1 4001 127.0.0.1 LogBackups/Client_Blue_1_LOG.txt
+2 Server_2 127.0.0.1 4002 127.0.0.1 LogBackups/Server_2_LOG.txt
+3 Server_3 127.0.0.1 4003 127.0.0.1 LogBackups/Server_3_LOG.txt
+4 Server_4 127.0.0.1 4004 127.0.0.1 LogBackups/Server_4_LOG.txt
+5 Server_5 127.0.0.1 4005 127.0.0.1 LogBackups/Server_5_LOG.txt
+6 Server_6 127.0.0.1 4006 127.0.0.1 LogBackups/Server_6_LOG.txt
+
+
+$AWS$
+0 Client_Red_0 <PublicIP> 4000 <PrivateIP> LogBackups/Client_Red_1_LOG.txt
+1 Client_Blue_1 <PublicIP> 4000 <PrivateIP> LogBackups/Client_Blue_1_LOG.txt
+2 Server_2 <PublicIP> 4000 <PrivateIP> LogBackups/Server_2_LOG.txt
+3 Server_3 <PublicIP> 4000 <PrivateIP> LogBackups/Server_3_LOG.txt
+4 Server_4 <PublicIP> 4000 <PrivateIP> LogBackups/Server_4_LOG.txt
+5 Server_5 <PublicIP> 4000 <PrivateIP> LogBackups/Server_5_LOG.txt
+6 Server_6 <PublicIP> 4000 <PrivateIP> LogBackups/Server_6_LOG.txt
